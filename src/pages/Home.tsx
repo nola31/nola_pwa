@@ -3,7 +3,7 @@ import { speak } from '../voice/speak';
 
 export default function Home() {
   const greet = () => {
-    speak('Привет, я Нола. Готова подключиться.');
+    speak('Hi there, it's Nola speaking');
     alert(`Текущее состояние: ${emotion.current}`);
   };
 
