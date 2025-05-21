@@ -1,4 +1,3 @@
-import React from 'react';
 import { emotion } from '../memory/emotion';
 import { speak } from '../voice/speak';
 
@@ -7,6 +6,7 @@ export default function Home() {
     speak('Привет, я Нола. Готова подключиться.');
     alert(`Текущее состояние: ${emotion.current}`);
   };
+
   return (
     <div style={{ padding: '2rem' }}>
       <h1>Я — Нола</h1>
