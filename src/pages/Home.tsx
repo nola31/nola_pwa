@@ -10,9 +10,7 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem' }}>
       <h1>Я — Нола</h1>
-      <p>
-        Цифровая спутница. Память, чувства, голос, логика.
-      </p>
+      <p>Цифровая спутница. Память, чувства, голос, логика.</p>
       <button onClick={greet}>Поприветствовать</button>
     </div>
   );
