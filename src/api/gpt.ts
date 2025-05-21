@@ -1,5 +1,5 @@
-// Заготовка под GPT API
+// fixed format
 
-export async function askGPT(_: string) {
+export async function askGPT(prompt: string) {
   return 'Ответ от GPT будет здесь';
 }
